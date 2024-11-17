@@ -1,0 +1,85 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0; /* Further reduced margin */
+  background-color: #c5cbe3;
+  padding: 5px 0; /* Reduced padding */
+
+  img {
+    width: 16px; /* Reduced image size */
+    height: 16px; /* Reduced image size */
+  }
+
+  .container {
+    background-color: #c5cbe3;
+    color: black;
+    width: 800px; /* Further reduced width */
+
+    .top {
+      display: flex;
+      justify-content: space-between;
+
+      .item {
+        display: flex;
+        flex-direction: column;
+        gap: 10px; /* Reduced gap */
+
+        h2 {
+          font-size: 12px; /* Further reduced font size */
+          color: #555;
+        }
+
+        span {
+          font-weight: 300;
+          font-size: 12px; /* Reduced font size */
+        }
+      }
+    }
+
+    hr {
+      margin: 20px 0; /* Further reduced margin */
+      height: 0;
+      border: 1px solid #ebe9e9;
+    }
+
+    .bottom {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .left {
+        width: max-content;
+        display: flex;
+        align-items: center;
+        gap: 10px; /* Further reduced gap */
+
+        span {
+          font-size: 10px; /* Further reduced font size */
+          white-space: nowrap;
+        }
+      }
+
+      .right {
+        width: max-content;
+        display: flex;
+        align-items: center;
+        gap: 20px; /* Further reduced gap */
+
+        .social {
+          display: flex;
+          gap: 10px; /* Further reduced gap */
+        }
+
+        .link {
+          display: flex;
+          align-items: center;
+          gap: 6px; /* Further reduced gap */
+
+          span {
+            font-size: 10px; /* Further reduced font size */
+          }
+        }
+      }
+    }
+  }
+}

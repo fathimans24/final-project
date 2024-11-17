@@ -1,0 +1,164 @@
+.home {
+  .features {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0; /* Reduced padding */
+    margin-top: 20px; /* Reduced margin */
+    margin-bottom: 0;
+    margin-left: 40px;
+    margin-right: 40px;
+
+    &.dark {
+      background-color: #0d084d;
+
+      h1 {
+        color: white !important;
+        font-size: 16px; /* Further reduced font size */
+      }
+
+      i {
+        font-weight: 300;
+      }
+
+      p {
+        margin-bottom: 10px; /* Further reduced margin */
+        color: white !important;
+      }
+
+      .title {
+        color: white !important;
+        font-weight: 300 !important;
+        font-size: 10px !important; /* Further reduced font size */
+      }
+
+      button {
+        background-color: #1dbf73;
+        border: none;
+        color: white;
+        padding: 6px 12px; /* Further reduced padding */
+        border-radius: 3px;
+        width: auto;
+        font-size: 12px; /* Further reduced font size */
+        cursor: pointer;
+        margin-top: 10px;
+      }
+    }
+
+    .container {
+      width: 800px; /* Further reduced width */
+      display: flex;
+      align-items: center;
+      gap: 60px; /* Further reduced gap */
+
+      .item {
+        display: flex;
+        flex-direction: column;
+        gap: 8px; /* Further reduced gap */
+
+        &:first-child {
+          flex: 2;
+        }
+
+        &:last-child {
+          flex: 3;
+        }
+
+        img {
+          width: 100%;
+        }
+
+        h1 {
+          font-weight: 500;
+          margin-bottom: 6px; /* Further reduced margin */
+          font-size: 16px; /* Further reduced font size */
+        }
+
+        .title {
+          display: flex;
+          align-items: center;
+          gap: 6px; /* Further reduced gap */
+          font-weight: 500;
+          font-size: 14px; /* Further reduced font size */
+          color: white;
+
+          img {
+            width: 16px; /* Further reduced icon size */
+            height: 16px;
+          }
+        }
+
+        p {
+          font-size: 14px; /* Further reduced font size */
+          font-weight: 300;
+          color: white;
+          line-height: 20px; /* Further reduced line height */
+          letter-spacing: 0.4px; /* Further reduced letter-spacing */
+        }
+
+        video {
+          width: 150%;
+          max-width: 500px; /* Further reduced max width */
+        }
+      }
+    }
+  }
+
+  .explore {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0; /* Further reduced padding */
+
+    .container {
+      width: 800px; /* Further reduced width */
+
+      h1 {
+        color: #555;
+        font-size: 16px; /* Further reduced font size */
+      }
+
+      .items {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        .item {
+          width: 110px; /* Further reduced width */
+          height: 110px; /* Further reduced height */
+          display: flex;
+          flex-direction: column;
+          gap: 6px; /* Further reduced gap */
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          cursor: pointer;
+
+          img {
+            width: 30px; /* Further reduced icon size */
+            height: 30px;
+          }
+
+          .line {
+            width: 30px; /* Further reduced width */
+            height: 2px;
+            background-color: lightgray;
+            transition: all 0.3s ease;
+          }
+
+          span {
+            font-weight: 300;
+            font-size: 12px; /* Further reduced font size */
+          }
+
+          &:hover {
+            .line {
+              width: 50px; /* Further reduced hover width */
+              background-color: #1dbf73;
+            }
+          }
+        }
+      }
+    }
+  }
+}

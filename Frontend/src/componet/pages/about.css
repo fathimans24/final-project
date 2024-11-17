@@ -1,0 +1,12 @@
+.about-container {
+  width: 100%;
+  height: 100vh; /* or any other height you prefer */
+  background-image: url('../../assets/search/1847.jpg'); /* Adjust path as needed */
+  background-size: cover; /* Make the image cover the whole area */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent tiling */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white; /* Text color for visibility */
+}

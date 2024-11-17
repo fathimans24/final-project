@@ -1,0 +1,57 @@
+/* InfoSection.css */
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px; 
+  background-color:#a4b3b6;
+  color: black;
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 50px;
+}
+
+.text-content {
+  margin-bottom: 20px; 
+}
+
+.text-content h5 {
+  font-size: 12px; 
+  letter-spacing: 1.5px;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.text-content p {
+  font-size: 14px; 
+  margin: 8px 0;
+  max-width: 400px; 
+}
+
+.venmo-button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 8px 16px; 
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px; 
+}
+
+.image-content {
+  margin-top: 40px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.device-image {
+  max-width: 200px; 
+  height: auto;
+  transform: rotate(-15deg);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2); 
+}

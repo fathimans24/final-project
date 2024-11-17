@@ -1,0 +1,90 @@
+.solutions-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .card-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color:rgb(238, 231, 243);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-info {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .profile-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .card-details {
+    flex: 1;
+  }
+  
+  .card-details h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .card-details p {
+    margin: 4px 0;
+    color: #666;
+  }
+  
+  .rating {
+    color: #28a745; /* green for rating */
+  }
+  
+  .hourly-rate {
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .match-percentage {
+    color: #888;
+    font-size: 14px;
+  }
+  
+  .card-actions {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+  }
+  
+  .card-actions button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #28a745;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .card-actions button:hover {
+    background-color: #218838;
+  }
+  
